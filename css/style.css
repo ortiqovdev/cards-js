@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background: linear-gradient(308deg, #001cff, #00fff6, #50ff00);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 37s ease infinite;
+    -moz-animation: AnimationName 37s ease infinite;
+    -o-animation: AnimationName 37s ease infinite;
+    animation: AnimationName 37s ease infinite;
+    font-family: sans-serif
+}
+
+.css-selector {
+    background: linear-gradient(308deg, #001cff, #00fff6, #50ff00);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 37s ease infinite;
+    -moz-animation: AnimationName 37s ease infinite;
+    -o-animation: AnimationName 37s ease infinite;
+    animation: AnimationName 37s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 0% 61%
+    }
+
+    50% {
+        background-position: 100% 40%
+    }
+
+    100% {
+        background-position: 0% 61%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 0% 61%
+    }
+
+    50% {
+        background-position: 100% 40%
+    }
+
+    100% {
+        background-position: 0% 61%
+    }
+}
+
+@-o-keyframes AnimationName {
+    0% {
+        background-position: 0% 61%
+    }
+
+    50% {
+        background-position: 100% 40%
+    }
+
+    100% {
+        background-position: 0% 61%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 61%
+    }
+
+    50% {
+        background-position: 100% 40%
+    }
+
+    100% {
+        background-position: 0% 61%
+    }
+}
+
+#card-bg {
+    background-color: rgb(255, 255, 255, 0.5);
+    width: 900px;
+    height: 500px;
+    border-radius: 10px;
+    margin-left: 300px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#turlar {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-left: 550px;
+}
+
+#turlar img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Uzcard */
+#plastik-uzcard {
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    margin-top: 120px;
+    box-shadow: -9px 9px 12px -1px rgba(0, 0, 0, 0.61);
+    background-image: url('https://ru.ipakyulibank.uz/uploads/images/widget/2020/12/widget_1608544285_9380.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#plastik-uzcard #card-num {
+    color: rgb(16, 144, 67);
+    margin-top: 120px;
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+#plastik-uzcard #card-muddat {
+    color: rgb(16, 144, 67);
+    margin-left: 120px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#plastik-uzcard #card-holder {
+    color: rgb(2, 49, 23);
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+
+/* humo */
+#plastik-humo {
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    margin-top: 120px;
+    box-shadow: -9px 9px 12px -1px rgba(0, 0, 0, 0.61);
+    background-image: url("./humo-shablon2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#plastik-humo #card-num {
+    color: rgb(29, 29, 29);
+    margin-top: 135px;
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+#plastik-humo #card-muddat {
+    color: rgb(51, 51, 51);
+    margin-left: 120px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#plastik-humo #card-holder {
+    color: rgb(51, 51, 51);
+    margin-left: 12px;
+    margin-top: 10px;
+    font-size: 18px;
+
+}
+
+/* Mastercard */
+#plastik-master {
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    margin-top: 120px;
+    box-shadow: -9px 9px 12px -1px rgba(0, 0, 0, 0.61);
+    background-image: url("./master-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#plastik-master #card-num {
+    color: rgb(234, 234, 234);
+    margin-top: 135px;
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+#plastik-master #card-muddat {
+    color: rgb(177, 177, 177);
+    margin-left: 120px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#plastik-master #card-holder {
+    color: rgb(177, 177, 177);
+    margin-left: 12px;
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+
+/* Visa */
+#plastik-visa {
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    margin-top: 120px;
+    box-shadow: -9px 9px 12px -1px rgba(0, 0, 0, 0.61);
+    background-image: url("./visa-logo2-png.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#plastik-visa #card-num {
+    color: rgb(234, 234, 234);
+    margin-top: 135px;
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+#plastik-visa #card-muddat {
+    color: rgb(177, 177, 177);
+    margin-left: 120px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#plastik-visa #card-holder {
+    color: rgb(177, 177, 177);
+    margin-left: 12px;
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+
+/* Card Settings  */
+#setting {
+    width: 350px;
+    height: 450px;
+    border-radius: 20px;
+    margin-top: 70px;
+    padding-left: 20px;
+}
+
+#setting h2 {
+    font-size: 24px;
+    color: rgb(70, 70, 70);
+    margin-bottom: 15px;
+}
+
+.username {
+    margin: 10px 0;
+
+}
+
+.username p {
+    margin: 5px 0;
+    color: #919191;
+}
+
+.kartaraqam {
+    margin: 20px 0;
+
+}
+
+.kartaraqam p {
+    margin: 5px 0;
+    color: #919191;
+}
+
+.saqlanish {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.raqamlar {
+    width: 100px;
+    margin: 0;
+    color: #919191;
+}
+
+.raqamlar input {
+    width: 100px;
+    margin-left: -31px;
+}
+
+.raqamlar p {
+    width: 150px;
+    margin-left: -10px;
+}
+
+.cvv-1 {
+    margin: 0;
+    width: 100px;
+    color: #919191;
+}
+
+.cvv-1 input {
+    width: 100px;
+    margin-left: -20px;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 5px;
+    border: none;
+}
+
+button {
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #0056a7;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#plastik-uzcard {
+    display: block;
+}
+
+#plastik-humo {
+    display: none;
+}
+
+#plastik-master {
+    display: none;
+}
+
+#plastik-visa {
+    display: none;
+}
+
+@media screen and (max-width:450px) {
+    body {
+        background-color: #001cff;
+    }
+
+    #turlar {
+        width: 220px;
+        margin-left: 60px;
+
+    }
+
+    #card-bg {
+        display: inline;
+    }
+
+    #plastik-uzcard {
+        width: 350px;
+        margin-left: 10px;
+        margin-top: 0px;
+        padding: 20px;
+
+    }
+
+    #plastik-uzcard   #card-num {
+        font-size: 25px;
+    }
+    #plastik-humo   #card-num {
+        font-size: 25px;
+    }
+    #plastik-master   #card-num {
+        font-size: 25px;
+    }
+    #plastik-visa   #card-num {
+        font-size: 25px;
+    }
+
+    #plastik-humo {
+        width: 350px;
+        margin-left: 10px;
+        margin-top: 0px;
+        padding: 20px;
+    }
+
+    #plastik-master {
+        width: 350px;
+        margin-left: 10px;
+        margin-top: 0px;
+        padding: 20px;
+    }
+
+    #plastik-visa {
+        width: 350px;
+        margin-left: 10px;
+        margin-top: 0px;
+        padding: 20px;
+    }
+
+    #setting {
+        margin-left: 30px;
+
+    }
+}

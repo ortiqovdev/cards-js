@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card desgn</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./icons8-bank-cards-96.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Card logos -->
+    <div id="turlar">
+        <img id="uzcard" src="./img/uzcard.png" alt="Uzcard">
+        <img id="humoc" src="./img/humo.png" alt="Humo">
+        <img id="mcard" src="./img/mastercard.png" alt="Mcard">
+        <img id="visac" src="./img/visa-logo.png" alt="Mcard">
+    </div>
+
+
+    <div id="card-bg">
+        <!-- Cards -->
+        <div id="plastik-uzcard">
+            <h3 id="card-num">0000 0000 0000 0000</h3>
+            <h4 id="card-muddat">MM/YY</h4>
+            <h4 id="card-holder">Akmal Ortiqov Bektemir o'g'li</h4>
+        </div>
+        <div id="plastik-humo">
+            <h3 id="card-num">0000 0000 0000 0000</h3>
+            <h4 id="card-muddat">MM/YY</h4>
+            <h4 id="card-holder">Akmal Ortiqov Bektemir o'g'li</h4>
+        </div>
+        <div id="plastik-master">
+            <h3 id="card-num">0000 0000 0000 0000</h3>
+            <h4 id="card-muddat">MM/YY</h4>
+            <h4 id="card-holder">Akmal Ortiqov Bektemir o'g'li</h4>
+        </div>
+        <div id="plastik-visa">
+            <h3 id="card-num">0000 0000 0000 0000</h3>
+            <h4 id="card-muddat">MM/YY</h4>
+            <h4 id="card-holder">Akmal Ortiqov Bektemir o'g'li</h4>
+        </div>
+
+
+        <!-- Card Setting  -->
+        <div id="setting">
+            <h2>Malumotlaringizni kiriting:</h2>
+            <div class="username">
+                <p>Ism Familya Otasini ismi:</p>
+                <input type="text" placeholder="Akmal Ortiqov Bektemir o'g'li" autocomplete="false">
+            </div>
+            <div class="kartaraqam">
+                <p>Karta raqami:</p>
+                <input type="number" placeholder="0000 0000 0000 0000">
+            </div>
+            <div class="saqlanish">
+                <div class="raqamlar">
+                    <p>Sana:</p>
+                    <input type="number" placeholder="MM/YY">
+                </div>
+                <div class="cvv-1">
+                    <p>CVV</p>
+                    <input type="password" placeholder="0000">
+                </div>
+            </div>
+            <button>Confirm</button>
+        </div>
+    </div>
+
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
