@@ -23,24 +23,24 @@
     <div id="card-bg">
         <!-- Cards -->
         <div id="plastik-uzcard">
-            <h3 id="card-num">0000 0000 0000 0000</h3>
-            <h4 id="card-muddat">MM/YY</h4>
-            <h4 id="card-holder">Akmal Ortiqov Bektemir o'g'li</h4>
+            <h3 id="cardnumber1"  class="cardnumber">0000  0000 0000 0000</h3>
+            <h4 id="card-muddat1"class="card-muddat">MM/YY</h4>
+            <h4 id="card-holder1" class="card-holder">Akmal Ortiqov Bektemir o'g'li</h4>
         </div>
         <div id="plastik-humo">
-            <h3 id="card-num">0000 0000 0000 0000</h3>
-            <h4 id="card-muddat">MM/YY</h4>
-            <h4 id="card-holder">Akmal Ortiqov Bektemir o'g'li</h4>
+            <h3 id="cardnumber2" class="cardnumber">0000 0000 0000 0000</h3>
+            <h4 id="card-muddat2" class="card-muddat">MM/YY</h4>
+            <h4 id="card-holder2"class="card-holder">Akmal Ortiqov Bektemir o'g'li</h4>
         </div>
         <div id="plastik-master">
-            <h3 id="card-num">0000 0000 0000 0000</h3>
-            <h4 id="card-muddat">MM/YY</h4>
-            <h4 id="card-holder">Akmal Ortiqov Bektemir o'g'li</h4>
+            <h3 id="cardnumber3"  class="cardnumber">0000 0000 0000 0000</h3>
+            <h4 id="card-muddat3"class="card-muddat">MM/YY</h4>
+            <h4 id="card-holder3"class="card-holder">Akmal Ortiqov Bektemir o'g'li</h4>
         </div>
         <div id="plastik-visa">
-            <h3 id="card-num">0000 0000 0000 0000</h3>
-            <h4 id="card-muddat">MM/YY</h4>
-            <h4 id="card-holder">Akmal Ortiqov Bektemir o'g'li</h4>
+            <h3 id="cardnumber4"  class="cardnumber">0000 0000 0000 0000</h3>
+            <h4 id="card-muddat4"class="card-muddat">MM/YY</h4>
+            <h4 id="card-holder4"class="card-holder">Akmal Ortiqov Bektemir o'g'li</h4>
         </div>
 
 
@@ -49,23 +49,23 @@
             <h2>Malumotlaringizni kiriting:</h2>
             <div class="username">
                 <p>Ism Familya Otasini ismi:</p>
-                <input type="text" placeholder="Akmal Ortiqov Bektemir o'g'li" autocomplete="false">
+                <input id="cardNameInput" maxlength="28" type="text" placeholder="Akmal Ortiqov Bektemir o'g'li" autocomplete="false">
             </div>
             <div class="kartaraqam">
                 <p>Karta raqami:</p>
-                <input type="number" placeholder="0000 0000 0000 0000">
+                <input  id="cardNumberinput"  maxlength="16" type="text" placeholder="0000 0000 0000 0000">
             </div>
             <div class="saqlanish">
                 <div class="raqamlar">
                     <p>Sana:</p>
-                    <input type="number" placeholder="MM/YY">
+                    <input id="cardDateinput" maxlength="4" type="text" placeholder="MM/YY" >
                 </div>
                 <div class="cvv-1">
                     <p>CVV</p>
-                    <input type="password" placeholder="0000">
+                    <input type="password" maxlength="4" placeholder="0000">
                 </div>
             </div>
-            <button>Confirm</button>
+            <button id="btn">Confirm</button>
         </div>
     </div>
 
