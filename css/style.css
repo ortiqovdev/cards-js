@@ -119,22 +119,38 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+#plastik-uzcard:hover{
+    box-shadow: 0px 0px 18px 4px rgba(0, 0, 0, 0.45);
+    transition: all 1s ease ;
+}
+#plastik-humo:hover{
+    box-shadow: 0px 0px 18px 4px rgba(0, 0, 0, 0.45);
+    transition: all 1s ease ;
+}
+#plastik-master:hover{
+    box-shadow: 0px 0px 18px 4px rgba(0, 0, 0, 0.45);
+    transition: all 1s ease ;
+}
+#plastik-visa:hover{
+    box-shadow: 0px 0px 18px 4px rgba(0, 0, 0, 0.45);
+    transition: all 1s ease ;
+}
 
-#plastik-uzcard #card-num {
+#plastik-uzcard .cardnumber {
     color: rgb(16, 144, 67);
     margin-top: 120px;
     font-size: 35px;
     margin-left: 20px;
 }
 
-#plastik-uzcard #card-muddat {
+#plastik-uzcard .card-muddat {
     color: rgb(16, 144, 67);
     margin-left: 120px;
     margin-top: 10px;
     font-size: 18px;
 }
 
-#plastik-uzcard #card-holder {
+#plastik-uzcard .card-holder {
     color: rgb(2, 49, 23);
     margin-left: 20px;
     margin-top: 10px;
@@ -154,21 +170,21 @@ body {
     background-size: cover;
 }
 
-#plastik-humo #card-num {
+#plastik-humo .cardnumber {
     color: rgb(29, 29, 29);
     margin-top: 135px;
     font-size: 35px;
     margin-left: 20px;
 }
 
-#plastik-humo #card-muddat {
+#plastik-humo .card-muddat {
     color: rgb(51, 51, 51);
     margin-left: 120px;
     margin-top: 10px;
     font-size: 18px;
 }
 
-#plastik-humo #card-holder {
+#plastik-humo .card-holder {
     color: rgb(51, 51, 51);
     margin-left: 12px;
     margin-top: 10px;
@@ -188,21 +204,21 @@ body {
     background-size: cover;
 }
 
-#plastik-master #card-num {
+#plastik-master .cardnumber {
     color: rgb(234, 234, 234);
     margin-top: 135px;
     font-size: 35px;
     margin-left: 20px;
 }
 
-#plastik-master #card-muddat {
+#plastik-master .card-muddat {
     color: rgb(177, 177, 177);
     margin-left: 120px;
     margin-top: 10px;
     font-size: 18px;
 }
 
-#plastik-master #card-holder {
+#plastik-master .card-holder {
     color: rgb(177, 177, 177);
     margin-left: 12px;
     margin-top: 10px;
@@ -222,21 +238,21 @@ body {
     background-size: cover;
 }
 
-#plastik-visa #card-num {
+#plastik-visa .cardnumber {
     color: rgb(234, 234, 234);
     margin-top: 135px;
     font-size: 35px;
     margin-left: 20px;
 }
 
-#plastik-visa #card-muddat {
+#plastik-visa .card-muddat {
     color: rgb(177, 177, 177);
     margin-left: 120px;
     margin-top: 10px;
     font-size: 18px;
 }
 
-#plastik-visa #card-holder {
+#plastik-visa .card-holder {
     color: rgb(177, 177, 177);
     margin-left: 12px;
     margin-top: 10px;
@@ -372,16 +388,16 @@ button {
 
     }
 
-    #plastik-uzcard   #card-num {
+    #plastik-uzcard   .cardnumber {
         font-size: 25px;
     }
-    #plastik-humo   #card-num {
+    #plastik-humo   .cardnumber {
         font-size: 25px;
     }
-    #plastik-master   #card-num {
+    #plastik-master   .cardnumber {
         font-size: 25px;
     }
-    #plastik-visa   #card-num {
+    #plastik-visa   .cardnumber {
         font-size: 25px;
     }
 
